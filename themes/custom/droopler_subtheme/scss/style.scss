@@ -12,3 +12,11 @@ header.header {
 .theme-invert > .paragraph .field--type-string {
   color: $color-odysseus;
 }
+
+.bottom-footer {
+  .region-footer-main {
+    .block {
+      margin-bottom: 0;
+    }
+  }
+}

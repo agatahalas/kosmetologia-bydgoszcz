@@ -24226,4 +24226,8 @@ header.header .site-logo img {
   color: white;
 }
 
+.bottom-footer .region-footer-main .block {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
