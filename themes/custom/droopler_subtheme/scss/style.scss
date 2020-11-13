@@ -2,3 +2,10 @@
 
 @import "config/all";
 @import "../../../../profiles/contrib/droopler/themes/custom/droopler_theme/scss/style";
+
+
+header.header {
+  .site-logo img {
+    max-height: 10rem;
+  }
+}
