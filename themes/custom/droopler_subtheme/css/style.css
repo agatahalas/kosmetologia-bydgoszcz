@@ -24222,4 +24222,8 @@ header.header .site-logo img {
   max-height: 10rem;
 }
 
+.theme-invert > .paragraph .field--type-string {
+  color: white;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

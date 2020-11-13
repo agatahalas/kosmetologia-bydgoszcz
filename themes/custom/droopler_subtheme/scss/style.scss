@@ -9,3 +9,6 @@ header.header {
     max-height: 10rem;
   }
 }
+.theme-invert > .paragraph .field--type-string {
+  color: $color-odysseus;
+}
