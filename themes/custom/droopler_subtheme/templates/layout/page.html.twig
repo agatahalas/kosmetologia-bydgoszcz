@@ -67,14 +67,14 @@
 <div id="page-wrapper" class="page-wrapper">
   <header id="header" class="header" role="banner"
           aria-label="{{ 'Site header'|t }}">
-    <div class="container d-flex align-items-center">
+    <div class="container align-items-center d-none d-md-flex">
       {{ page.header }}
     </div>
     {% block head %}
       <nav{{ navbar_attributes.addClass('navbar-wrapper') }}>
         <div class="container no-padding-md">
-          <div class="navbar-brand d-flex align-items-center">
-           {# {{ page.header }}#}
+          <div class="navbar-brand d-flex align-items-center d-md-none">
+            {{ page.header }}
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
